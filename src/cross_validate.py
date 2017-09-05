@@ -5,7 +5,7 @@ from pipeline.pipeline import create_pipeline
 def main():
     df = get_data()
     pipeline = create_pipeline()
-    data = pipeline.fit_transform(df)
+    # data = pipeline.fit_transform(df)
     print(df)
 
 
